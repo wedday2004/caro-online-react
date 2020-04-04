@@ -1,0 +1,62 @@
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
+  height: 25px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 25px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game-board {
+  padding: 10px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 200% 200%;
+  animation: gradientBG 2s ease infinite;
+  border-radius: 5px;
+}
+
+.X {
+  color: #ea4335;
+}
+.O {
+  color: #4285f4;
+}
+.curplayer {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+p {
+  text-align: center;
+}
+
+.currentposition {
+  background-color: yellow;
+}
+.currentsquare {
+  background-color: blanchedalmond;
+}
+.winLine {
+  background: yellow;
+}

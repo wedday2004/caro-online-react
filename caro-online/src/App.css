@@ -1,0 +1,10 @@
+ol,
+ul {
+  padding-left: 30px;
+}
+body,
+html,
+#root,
+.row {
+  height: 100%;
+}

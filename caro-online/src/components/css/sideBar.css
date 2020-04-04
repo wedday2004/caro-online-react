@@ -1,0 +1,110 @@
+.status {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 300px;
+  height: 500px;
+}
+.btnNuocdi {
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 2px;
+  margin: 5px;
+  background: linear-gradient(-45deg, #23a6d5, #23d5ab);
+  border-radius: 20px;
+  border: none;
+}
+
+.danhsachnuocdi {
+  height: 80%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.onlineHistory {
+  height: 30%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.onlineHistory:hover {
+  overflow-y: scroll;
+}
+.danhsachnuocdi:hover {
+  overflow-y: scroll;
+}
+
+.resetBtn {
+  font-weight: bold;
+  width: 70%;
+  border-radius: 50px;
+  background: linear-gradient(-45deg, #23a6d5, #23d5ab);
+  margin: 0 auto;
+  margin-bottom: 10px;
+  height: 50px;
+  display: block;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+.resetBtn:hover {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e);
+  border-color: #ee7752;
+}
+
+.nextPlayerTitle {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.currentposition {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e);
+  border-color: #ee7752;
+  outline: none;
+}
+
+.currentposition:focus {
+  outline: none;
+}
+
+.avatarImgBar {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.userInfo {
+  height: auto;
+  margin-bottom: 20px;
+}
+.resetBtn a {
+  color: white;
+  display: block;
+  width: 100%;
+}
+.resetBtn a:hover {
+  text-decoration: none;
+}
+.findingTxt {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 200% 200%;
+  animation: gradientBG 2s ease infinite;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.frameAvatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 200% 200%;
+  animation: gradientBG 2s ease infinite;
+  border-radius: 50px;
+}
