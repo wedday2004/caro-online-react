@@ -1,10 +1,10 @@
 var mysql = require("mysql");
 var createConnection = () =>
   mysql.createConnection({
-    host: "remotemysql.com",
-    user: "3YfXT0H3Lf",
-    password: "A5wEcLriHo",
-    database: "3YfXT0H3Lf"
+    host: "inoxtheluxury.com",
+    user: "huydang",
+    password: "huyDang@1998",
+    database: "caro"
   });
 
 module.exports = {
